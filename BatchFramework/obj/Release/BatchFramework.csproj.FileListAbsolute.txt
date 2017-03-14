@@ -1,0 +1,4 @@
+D:\Math\Assignment 8 - Final Project\FinalProject\BatchFramework\bin\Release\BatchFramework.dll
+D:\Math\Assignment 8 - Final Project\FinalProject\BatchFramework\bin\Release\BatchFramework.pdb
+D:\Math\Assignment 8 - Final Project\FinalProject\BatchFramework\obj\Release\BatchFramework.dll
+D:\Math\Assignment 8 - Final Project\FinalProject\BatchFramework\obj\Release\BatchFramework.pdb

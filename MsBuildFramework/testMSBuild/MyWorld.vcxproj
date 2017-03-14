@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.default.props" />
+	<PropertyGroup>
+		<ConfigurationType>Application</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ItemGroup>
+		<ClCompile Include="MyWorld.cpp" />
+	</ItemGroup>
+	<!-- <ItemGroup>
+		<ClInclude Include="main.h" />
+	</ItemGroup> -->
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Targets" />
+
+	<!-- <Target Name="Build" Inputs="@(ClCompile)" Outputs="$(OutputPath)$(AssemblyName).exe">
+		<MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />
+		<Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />
+		<Message Text="%24(VCTargetsPath) is %22$(VCTargetsPath)%22" />
+	</Target> -->
+	
+	<!-- clean target -->
+	<Target Name="Clean">
+		<!-- <Delete Files="$(OutputPath)$(AssemblyName).exe" /> -->
+		<RemoveDir Directories="$(OutputPath)" />
+	</Target>
+	
+	<Target Name="Rebuild" DependsOnTargets="Clean;Build" />
+	
+	<PropertyGroup>
+		<AssemblyName>MSBuildSample</AssemblyName>
+		<OutputPath>Bin\</OutputPath>
+	</PropertyGroup>
+</Project>
