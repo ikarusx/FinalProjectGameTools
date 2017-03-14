@@ -1,5 +1,0 @@
-H:\VGP232 Game Tools & Pipelines\Assignment 8 - Final Project\FinalProject\BatchFramework\bin\Debug\BatchFramework.dll
-H:\VGP232 Game Tools & Pipelines\Assignment 8 - Final Project\FinalProject\BatchFramework\bin\Debug\BatchFramework.pdb
-H:\VGP232 Game Tools & Pipelines\Assignment 8 - Final Project\FinalProject\BatchFramework\obj\Debug\BatchFramework.dll
-H:\VGP232 Game Tools & Pipelines\Assignment 8 - Final Project\FinalProject\BatchFramework\obj\Debug\BatchFramework.pdb
-H:\VGP232 Game Tools & Pipelines\Assignment 8 - Final Project\FinalProject\BatchFramework\obj\Debug\BatchFramework.csprojResolveAssemblyReference.cache

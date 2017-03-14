@@ -1,8 +1,0 @@
-D:\Math\Assignment 8 - Final Project\FinalProject\MsBuildFramework\bin\Release\MsBuildFramework.exe.config
-D:\Math\Assignment 8 - Final Project\FinalProject\MsBuildFramework\bin\Release\MsBuildFramework.exe
-D:\Math\Assignment 8 - Final Project\FinalProject\MsBuildFramework\bin\Release\MsBuildFramework.pdb
-D:\Math\Assignment 8 - Final Project\FinalProject\MsBuildFramework\bin\Release\BatchFramework.dll
-D:\Math\Assignment 8 - Final Project\FinalProject\MsBuildFramework\bin\Release\BatchFramework.pdb
-D:\Math\Assignment 8 - Final Project\FinalProject\MsBuildFramework\obj\Release\MsBuildFramework.csprojResolveAssemblyReference.cache
-D:\Math\Assignment 8 - Final Project\FinalProject\MsBuildFramework\obj\Release\MsBuildFramework.exe
-D:\Math\Assignment 8 - Final Project\FinalProject\MsBuildFramework\obj\Release\MsBuildFramework.pdb
